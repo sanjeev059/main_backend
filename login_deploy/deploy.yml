@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+ name: backendwebapp
+ labels:
+  app: backendwebapp
+spec:
+ containers: 
+ - name: webapp
+   image: swara1214/mainbackend:v1.0
+
